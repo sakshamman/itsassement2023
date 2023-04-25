@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clothing Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<style>
+/* Global Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: black;
+	color: #ffffff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header h1{
+    font-family: raleway;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+main {
+padding: 50px;
+background-color: #f2f2f2;
+}
+
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+footer {
+	background-color: #D3D3D3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+.products-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 20px;
+}
+
+.product-item {
+background-color: #fff;
+box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+padding: 20px;
+}
+
+.product-item img {
+max-width: 100%;
+}
+
+.product-item h2 {
+font-size: 24px;
+margin: 10px 0;
+}
+
+.product-item p {
+font-size: 18px;
+margin: 10px 0;
+}
+</style>
+<body>
+	<header>
+		<h1>Online Shoes Collection</h1>
+		<nav>
+			<ul>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/index.html">Home</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/product.html">Shop</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/aboutus.html">About Us</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/contact.html">Contact</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/cart.html">Shopping Cart</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Our Products</h1>
+		<div class="products-grid">
+			<div class="product-item">
+				<img src="maxim-hopman-8cT5ja0P_N4-unsplash.jpg" alt="Product 1">
+				<h2>Maxim HopMan G23</h2>
+				<p>Rs 6899</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-item">
+				<img src="nathan-dumlao-szIDYUypDB0-unsplash.jpg" alt="Product 2">
+				<h2>Nathan Dumlao</h2>
+				<p>Rs 7300</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-item">
+				<img src="colton-sturgeon-cHxZmiziwMI-unsplash.jpg" alt="Product 3">
+				<h2>Colton Sturgeon</h2>
+				<p>Rs 4499</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-item">
+				<img src="jia-ye-erHlzWCN6zQ-unsplash.jpg" alt="Product 4">
+				<h2>Jia Ye</h2>
+				<p>Rs 4999</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-item">
+				<img src="ayrus-hill-FkNIKhdnnjQ-unsplash.jpg" alt="Product 5">
+				<h2>Ayrus Hill</h2>
+				<p>Rs 4999</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="product-item">
+				<img src="clay-banks-BSL837tTPAw-unsplash.jpg" alt="Product 6">
+				<h2>Clay Banks</h2>
+				<p>Rs 5999</p>
+				<button>Add to Cart</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Company</p>
+	</footer>
+</body>
+</html>

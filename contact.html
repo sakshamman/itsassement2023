@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+	/* Global Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: black;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Style the form container */
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form fields and labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+      /* Table styling */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: GREY;
+        font-weight: bold;
+      }
+      /* Responsive design */
+      @media screen and (max-width: 600px) {
+        table {
+          display: block;
+          overflow-x: auto;
+        }
+        th,
+        td {
+          display: block;
+          text-align: center;
+        }
+        th {
+          text-align: center;
+        }
+      }
+	  
+footer {
+	background-color: #D3D3D3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+    </style>
+  </head>
+  <body>
+  <header>
+		<h1>Online Shoes Collection</h1>
+		<nav>
+			<ul>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/index.html">Home</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/product.html">Shop</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/aboutus.html">About Us</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/contact.html">Contact</a></li>
+				<li><a href="file:///C:/Users/C2SDK/Desktop/final%20weebsite/cart.html">Shopping Cart</a></li>
+			</ul>
+		</nav>
+	</header>
+	<form id="contact-form">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
+    <table>
+      <tr>
+        <th>Shop Contact Details</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>Name:</td>
+        <td>Saksham Man Shrestha</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>shoescollection@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Phone:</td>
+        <td>555-555-5555</td>
+      </tr>
+      <tr>
+        <td>Address:</td>
+        <td>Street3-Newroad, Kathmandu, Nepal</td>
+      </tr>
+    </table>
+	
+	<footer>
+		<p>&copy; 2023 My Company</p>
+	</footer>
+  </body>
+</html>
